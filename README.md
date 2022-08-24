@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Samjolas/Gabrielle-Perfume)
+- Live Site URL: [Add live site URL here](https://samjolas.github.io/Gabrielle-Perfume)
 
 ## My process
 
@@ -64,8 +64,6 @@ Users should be able to:
 - At first I use embed for the icon svg but I found out it didn't work, it said something about unsupported plugin, I will look into that after this project 
 
 - MY major challenge is creating a website with the figma design or the actual website. Just using a jpg is really not the best when builidng a website 
-
-To see how you can add code snippets, see below:
 
 
 ### Continued development
