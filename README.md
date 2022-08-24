@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Samjolas/Gabrielle-Perfume)
-- Live Site URL: [Add live site URL here](https://samjolas.github.io/Gabrielle-Perfume)
+- Solution URL: [Gabrielle Perfume - GITHUB](https://github.com/Samjolas/Gabrielle-Perfume)
+- Live Site URL: [Gabrielle Perfume](https://samjolas.github.io/Gabrielle-Perfume)
 
 ## My process
 
