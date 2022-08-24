@@ -1,0 +1,117 @@
+@use '../style/variables' as a;
+.body {
+  position: relative;
+  height: 100vh;
+}
+.perfume {
+  display: flex;
+  flex-direction: row;
+  width: 64.2rem;
+  height: 52rem;
+  background: a.$color-white;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  &__img, &__des {
+    flex: 1;
+  }
+  &__des {
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  &__name {
+    font-family: a.$ff-main;
+    font-size: a.$ff-700;
+    line-height: 1;
+    font-weight: a.$fw-700;
+    color: a.$color-main;
+  }
+  &__title,
+  &__detail {
+    font-family: a.$ff-sub;
+    font-size: a.$ff-400;
+    font-weight: a.$fw-700;
+    color: a.$color-sub;
+  }
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__price {
+    display: flex;
+    font-family: a.$ff-main;
+    line-height: 1;
+    font-weight: a.$fw-700;
+    gap: 2rem;
+    align-items: center;
+    &--active {
+      color: a.$color-price;
+      font-size: a.$ff-600;
+    }
+    &--deactive {
+      text-decoration: line-through;
+      font-size: a.$ff-300;
+    }
+    
+  }
+}
+
+@media screen and (max-width: 700px){
+  .perfume {
+    flex-direction: column;
+    height: calc(100% - 3rem);
+    width: calc(100% - 3rem);
+    &__img{
+      height: 45%;
+      border-top-left-radius: 1rem; border-top-right-radius: 1rem;
+    }
+    &__des {
+      gap: 2.1rem;
+    }
+    &__name {
+      font-size: a.$ff-600;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .perfume {
+    &__des {
+      gap: 1.7rem;
+    }
+    &__price {
+      &--active {
+        font-size: a.$ff-550;
+      }      
+    }
+    &__title,
+    &__detail {
+    font-size: 1.2rem;
+  }
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .perfume {
+    &__des {
+      padding: 2rem;
+    }
+    &__des {
+      gap: .8rem;
+    }
+    &__name {
+      font-size: a.$ff-500;
+    }
+    &__price {
+      &--active {
+        font-size: a.$ff-500;
+      }      
+    }
+    &__title,
+    &__detail {
+    font-size: a.$ff-300;
+  }
+  }
+}
