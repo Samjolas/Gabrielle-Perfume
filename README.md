@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Gabrielle Perfume - GITHUB](https://github.com/Samjolas/Gabrielle-Perfume)
+- Live Site URL: [Gabrielle Perfume](https://samjolas.github.io/Gabrielle-Perfume)
 
 ## My process
 
@@ -65,8 +65,6 @@ Users should be able to:
 
 - MY major challenge is creating a website with the figma design or the actual website. Just using a jpg is really not the best when builidng a website 
 
-To see how you can add code snippets, see below:
-
 
 ### Continued development
 
@@ -78,7 +76,7 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Frontend Mentor - [@Samjolas](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Samjolas](https://www.frontendmentor.io/profile/Samjolas)
 
 
 
