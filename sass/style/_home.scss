@@ -4,16 +4,16 @@
   height: 100vh;
 }
 .perfume {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 64.2rem;
   height: 52rem;
   background: a.$color-white;
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
-  &__img, &__des {
-    flex: 1;
+  &__img {
+    height: 100%;
   }
   &__des {
     padding: 3.2rem;
@@ -59,12 +59,15 @@
 }
 
 @media screen and (max-width: 700px){
+  .body {
+    height: 117vh;
+  }
   .perfume {
     flex-direction: column;
     height: calc(100% - 3rem);
     width: calc(100% - 3rem);
+    grid-template-columns: 1fr;
     &__img{
-      height: 45%;
       border-top-left-radius: 1rem; border-top-right-radius: 1rem;
     }
     &__des {
@@ -77,6 +80,9 @@
 }
 
 @media screen and (max-width: 400px) {
+  .body {
+    height: 130vh;
+  }
   .perfume {
     &__des {
       gap: 1.7rem;
