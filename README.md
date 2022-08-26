@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Gabrielle Perfume - GITHUB](https://github.com/Samjolas/Gabrielle-Perfume)
-- Live Site URL: [Gabrielle Perfume](https://samjolas.github.io/Gabrielle-Perfume)
+- Live Site URL: [Gabrielle Perfume - LIVE](https://samjolas.github.io/Gabrielle-Perfume)
 
 ## My process
 
